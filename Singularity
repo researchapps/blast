@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: biocontainers/blast
+From:biocontainers/blast
 
 %runscript
 
