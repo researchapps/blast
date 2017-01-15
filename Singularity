@@ -8,6 +8,7 @@ From: biocontainers/blast
     echo "\nThis container provides the following executables:"
     ls /opt/conda/bin
     echo "\nExample usage: blastx.img blast [args] [options]"
+  
   else
     exec /opt/conda/bin/"$@"
   fi
